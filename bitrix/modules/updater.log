@@ -1,0 +1,3 @@
+2022-05-30 16:12:04 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1653916322/sprint.migration/updater3.8.4.php': CopyFiles(install/gadgets/, gadgets/)
+2022-05-30 16:12:13 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1653916333/sprint.migration/updater3.8.5.php': CopyFiles(install/gadgets/, gadgets/)
+2022-05-30 16:12:25 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1653916345/sprint.migration/updater3.12.17.php': CopyFiles(install/gadgets/, gadgets/)
