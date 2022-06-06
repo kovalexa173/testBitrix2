@@ -1,3 +1,4 @@
+ 
 <? if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();
 
 use Bitrix\Main;
@@ -174,7 +175,7 @@ if (empty($arResult['ERROR_MESSAGE']))
 		{
 			?>
 			<div class="row">
-				<div class="col" data-entity="basket-total-block"></div>
+				<div class="col" data-entity="basket-total-block">!!!!!!!!!!!!!</div>
 			</div>
 			<?
 		}

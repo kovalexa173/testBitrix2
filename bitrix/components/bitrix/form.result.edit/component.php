@@ -225,7 +225,7 @@ if (CModule::IncludeModule("form"))
 
 						if ($_REQUEST["web_form_apply"] <> '' && !(defined("ADMIN_SECTION") && ADMIN_SECTION===true))
 						{
-							// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+							//  !!!!
 							//LocalRedirect($arParams["EDIT_URL"].(strpos($arParams["EDIT_URL"], "?") === false ? "?" : "&")."strFormNote=".urlencode($arResult["FORM_NOTE"]));
 							if ($arParams["SEF_MODE"] == "Y")
 							{

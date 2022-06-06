@@ -1,3 +1,4 @@
+
 <? if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();
 
 use Bitrix\Main\Localization\Loc;
@@ -6,6 +7,12 @@ use Bitrix\Main\Localization\Loc;
  * @var array $arParams
  */
 ?>
+<?$APPLICATION->IncludeComponent(
+	"ylab:promo", 
+	".default",
+)
+?>
+<?var_dump($arResult)?>
 <script id="basket-total-template" type="text/html">
 	<div class="basket-checkout-container" data-entity="basket-checkout-aligner">
 		<?
@@ -67,7 +74,7 @@ use Bitrix\Main\Localization\Loc;
 					</div>
 				</div>
 
-				<div class="basket-checkout-block basket-checkout-block-btn">
+				<div class="basket-checkout-block basket-checkout-block-btn"><p></p>
 					<button class="btn btn-lg btn-primary basket-btn-checkout{{#DISABLE_CHECKOUT}} disabled{{/DISABLE_CHECKOUT}}"
 						data-entity="basket-checkout-button">
 						<?=Loc::getMessage('SBB_ORDER')?>

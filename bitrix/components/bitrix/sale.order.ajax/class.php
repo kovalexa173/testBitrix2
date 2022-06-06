@@ -27,7 +27,7 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
  * @var $APPLICATION CMain
  * @var $USER CUser
  */
-
+var_dump($arResult);
 Loc::loadMessages(__FILE__);
 
 if (!Loader::includeModule("sale"))
