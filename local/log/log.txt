@@ -1,0 +1,10 @@
+Host: testbitrix2
+Date: 2022-06-20 16:48:20
+Module: 
+Запись с названием Тестовый товар2 добавлена.
+    MyClass::OnAfterIBlockElementAddHandler < ExecuteModuleEventEx < CAllIBlockElement::Add < require
+	W:\domains\testBitrix2\bitrix\modules\main\classes\general\module.php:465
+	W:\domains\testBitrix2\bitrix\modules\iblock\classes\general\iblockelement.php:3658
+	W:\domains\testBitrix2\bitrix\modules\iblock\admin\iblock_element_edit.php:1060
+	W:\domains\testBitrix2\bitrix\admin\iblock_element_edit.php:1
+----------

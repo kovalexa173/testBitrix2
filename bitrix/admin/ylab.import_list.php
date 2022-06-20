@@ -1,0 +1,1 @@
+<? require($_SERVER["DOCUMENT_ROOT"] . "/local/modules/ylab.import/admin/list.php");?>
